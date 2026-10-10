@@ -1,0 +1,13 @@
+# Tout ignorer à la racine...
+/*
+
+# ...sauf ces éléments
+!.gitignore
+!Donnees/
+!Modele/
+!Scripts/
+
+# Dans Scripts : tout ignorer sauf 2 fichiers
+Scripts/*
+!Scripts/entrainement.py
+!Scripts/prediction.py
